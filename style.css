@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #dfe6e0;
+  height: 1000px;
+}
+#header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #79807a;
+  top: 0;
+  padding: 3px;
+}
+#header-img{
+  color: white;
+  width: 12.5%;
+}
+#nav-bar {
+  margin-left: auto;
+}
+
+#nav-bar ul li{
+  display: inline;
+  margin: 0 25px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+#video-gadgetin-review {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+#email-notif-request{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#email {
+  padding: 7.5px 3px;
+  width: 200px;
+}
+
+#submit {
+  display: block;
+  margin: 20px auto;
+  background-color: #333;
+  color: white;
+  padding: 7.5px 25px;
+  border: 0;
+}
+
+#product-variants h3 {
+  text-align: center;
+  margin-top: 25px;
+}
+.card-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card-item {
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.card-item img {
+  width: 100%;
+}
+@media only screen and (max-width: 600px){
+  .card-list {
+    display: block;
+    min-width: 300px;
+  }
+}
